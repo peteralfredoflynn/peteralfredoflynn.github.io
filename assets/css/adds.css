@@ -1,11 +1,71 @@
-.no-decor {
-  text-decoration: none;
+.twitter-link:hover {
+  background-color: blue;
 }
 
-#work .container p {
-  font-size: 1.25em;
+.github-link {
+
 }
 
-.larger {
-  font-size: 1.25em;
+.linkedin-link {
+
+}
+
+.mail-link {
+
+}
+
+ul.icons li a.fa-linkedin {
+  color: blue;
+}
+
+article.item p{
+  padding-left: 12px;
+  padding-right: 12px;
+  line-height: normal;
+  text-align: left;
+  color: #333;
+}
+
+article.item p a {
+  color: #00ccff;
+}
+
+article.item a {
+  color: #518596;
+  border: none;
+  cursor: pointer;
+}
+
+article.item a:hover {
+  color: #00ccff;
+}
+
+.fltleft {
+  float: left;
+}
+
+.fltright {
+  float: right;
+}
+
+/* ABOUT */
+
+#about p a {
+  color: #33ccff;
+  border: none;
+}
+
+#about p a:hover {
+  text-decoration: underline;
+}
+
+/* CONTACT */
+
+#contact p a {
+  color: #33ccff;
+  border: none;
+}
+
+#contact p a:hover {
+  text-decoration: underline;
 }

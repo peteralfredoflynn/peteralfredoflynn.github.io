@@ -1,11 +1,12 @@
 <!DOCTYPE HTML>
 <!--
-	Miniport by HTML5 UP
+	Prologue by HTML5 UP
 	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>Peter's Portfolio</title>
+		<title>Prologue by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -16,223 +17,255 @@
 	</head>
 	<body>
 
-		<!-- Nav -->
-			<nav id="nav">
-				<ul class="container">
-					<li><a href="#top">Top</a></li>
-					<li><a href="#work">About Me</a></li>
-					<li><a href="#portfolio">Skill-Match</a></li>
-					<li><a href="#portfolio2">Projects</a></li>
-					<li><a href="#contact">Contact</a></li>
-					<li><a href="https://github.com/peteralfredoflynn" class="icon fa-github"><span class="label">Twitter</span></a></li>
-					<li><a href="https://www.linkedin.com/in/peter-flynn-8a32392a" class="icon fa-linkedin"><span class="label">Twitter</span></a></li>
-				</ul>
-			</nav>
+		<!-- Header -->
+			<div id="header">
 
-		<!-- Home -->
-			<div class="wrapper style1 first">
-				<article class="container" id="top">
-					<div class="row">
-						<div class="4u 12u(mobile)">
-							<span class="image fit"><img src="http://res.cloudinary.com/skill-match/image/upload/v1453522603/Me-Iron-Yard-Circle-350_hybldb.png" alt="" /></span>
-						</div>
-						<div class="8u 12u(mobile)">
-							<header>
-								<h1>Hi. I'm <strong>Peter Flynn</strong>.</h1>
-							</header>
-							<p>I'm a Junior Back-End Engineer living in Las Vegas, NV.</p>
-							<p>Email:    <a href="mailto:peter@peterflynn.net?subject=Hello there!" class="no-decor">peter@peterflynn.net</a></p>
-							<a href="#work" class="button big scrolly">More About Me</a>
-						</div>
-					</div>
-				</article>
-			</div>
+				<div class="top">
 
-		<!-- Work -->
-			<div class="wrapper style2">
-				<article id="work">
-					<header>
-						<h2>About Me</h2>
-					</header>
-					<div class="container">
-						<div class="row">
-							<div class="2u 12u(mobile)">
-							</div>
-							<div class="8u 12u(mobile)">
-							<p>I am a recent graduate of the Iron Yard where I gained skills in Python, Django, Django REST Framework, PostgreSQL including PostGIS in addition to HTML, CSS, and Javascript.</p>
-							<p>I have a B.S. in Informatics and HCI from UNLV where I gained knowledge in Project Management, UX/UI, GIS, Photoshop, Illustrator, MySQL, C++ and Java.</p>
-							<img src="http://res.cloudinary.com/skill-match/image/upload/v1453841258/python-100_x5dmuy.png">
-							</div>
-							<div class="2u 12u(mobile)">
-							</div>
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="http://res.cloudinary.com/skill-match/image/upload/v1453522603/Me-Iron-Yard-Circle-350_hybldb.png" alt="" /></span>
+							<h1 id="title">Peter Flynn</h1>
+							<p>Junior Back-End Developer</p>
 						</div>
-					</div>
-					<footer>
-						<p>Here's a few things I'm working on.</p>
-						<a href="#portfolio" class="button big scrolly">Recent Work</a>
-					</footer>
-				</article>
-			</div>
 
-		<!-- Portfolio -->
-			<div class="wrapper style3">
-				<article id="portfolio">
-					<header>
-						<h2>Skill Match</h2>
-						<div class="row larger">
-							<div class="2u 12u(mobile)"></div>
-							<div class="8u 12u(mobile)"?
-							<p>Skill Match is a sports meetup app to find games in your area with desired skill levels. I'm currently working as the back-end developer with 2 front end developers to further develop Skill-Match. Check out below for more information.</p>
-							</div>
-							<div class="2u 12u(mobile)"></div>
-					</header>
-					<div class="container">
-						<div class="row">
-							<div class="4u 12u(mobile)">
-								<article class="box style2">
-									<a href="http://skill-match.surge.sh/?home=home" class="image featured"><img src="http://res.cloudinary.com/skill-match/image/upload/v1453852840/skill-match-800_afxrxb.jpg" alt="" /></a>
-									<h3><a href="#">Skill-Match Beta</a></h3>
-									<p>Check out the <a href="http://skill-match.surge.sh/?home=home">web app</a> in its early development stages. Responsive design is currently being worked on offline, so you may need adjust the zoom.</p>
-								</article>
-							</div>
-							<div class="4u 12u(mobile)">
-								<article class="box style2">
-									<a href="https://skill-match.herokuapp.com/api/matches/" class="image featured"><img src="http://res.cloudinary.com/skill-match/image/upload/v1453853513/api-800_ltndoh.jpg" alt="" /></a>
-									<h3><a href="#">Django REST Framework API</a></h3>
-									<p><a href="https://skill-match.herokuapp.com/api/matches/">This API</a> powers the app with tools like geolocation and text/email alerts. Swagger offers a guide to some of the API's <a href="https://skill-match.herokuapp.com/docs/">operations</a></p>
-									<p>See the api <a href="https://github.com/Skill-Match/skill-match-api">code</a>.</p>
-								</article>
-							</div>
-							<div class="4u 12u(mobile)">
-								<article class="box style2">
-									<a href="https://youtu.be/UXIAwk8o7Ko" class="image featured"><img src="http://res.cloudinary.com/skill-match/image/upload/v1453853527/skill-match-pitch-800_yvrk8m.jpg" alt="" /></a>
-									<h3><a href="#">Short Investor Pitch Video</a></h3>
-									<p>Our first <a href="https://youtu.be/UXIAwk8o7Ko">video</a> shows our entire team with a quick pitch of our app intended for <a href="http://themill.vc/">The Mill</a> in Las Vegas.
-								</article>
-							</div>
-						</div>
-					</div>
-					<footer>
-						<a href="#portfolio2" class="button big scrolly">Other cool stuff</a>
-					</footer>
-				</article>
-			</div>
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
 
-			<!-- Portfolio-2 -->
-				<div class="wrapper style3">
-					<article id="portfolio2">
-						<header>
-							<h2>Fun Projects</h2>
-							<p>Work I'm proud of / found amusing.</p>
-						</header>
-						<div class="container">
-							<div class="row">
-								<div class="4u 12u(mobile)">
-									<article class="box style2">
-										<a href="#" class="image featured"><img src="http://res.cloudinary.com/skill-match/image/upload/v1453853533/urly-bird-800_omyg1q.jpg" alt="" /></a>
-										<h3><a href="#">Urly-Bird</a></h3>
-										<p>Urly Bird is yet another url shortening app. Paste a long URL and Urly Bird will give you a shorter reference URL. The top used Urly Bird Url's are displayed on the homepage.</p>
-									</article>
-								</div>
-								<div class="4u 12u(mobile)">
-									<article class="box style2">
-										<a href="https://ironfoos.herokuapp.com/" class="image featured"><img src="http://res.cloudinary.com/skill-match/image/upload/v1453853539/iron-foos-800_trakyl.jpg" alt="" /></a>
-										<h3><a href="#">Iron Foos</a></h3>
-										<p><a href="https://ironfoos.herokuapp.com/">Iron Foos</a> is an Iron Yard hackathon project. I teamed up with one front-end developer and wrote a quick 8-man single-elimination tournament algorithm. It's simple, works and can be referenced later for use with Skill Match.</p>
-									</article>
-								</div>
-								<div class="4u 12u(mobile)">
-									<article class="box style2">
-										<a href="#" class="image featured"><img src="http://res.cloudinary.com/skill-match/image/upload/v1453853581/blackjack-800_twwsfq.jpg" alt="" /></a>
-										<h3><a href="#">Blackjack / Sticks</a></h3>
-										<p>Some early basic python code that I enjoyed working with. Game of Sticks involves a very simple AI that I enjoyed building. BlackJack was a weekend project. At the time I was jumping in and just doing whatever works. It's highly functional with splits, double downs and surrenders. See the code.</p>
-									</article>
-								</div>
-							</div>
-						</div>
-						<footer>
-							<p>Want to know more?</p>
-							<a href="#contact" class="button big scrolly">Get in touch with me</a>
-						</footer>
-					</article>
+								Prologue's nav expects links in one of two formats:
+
+								1. Hash link (scrolls to a different section within the page)
+
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+								2. Standard link (sends the user to another page/site)
+
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+
+							-->
+							<ul>
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
+								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+								<li><a target="_blank" href="https://drive.google.com/file/d/0BzFtlJWmCuiTUndXYlcySWx6cHM/view?usp=sharing" class="skel-layers-ignoreHref"><span class="icon fa-file-pdf-o">Resume</span></a></li>
+							</ul>
+						</nav>
+
 				</div>
 
-		<!-- Contact -->
-			<div class="wrapper style4">
-				<article id="contact" class="container 75%">
-					<header>
-						<h2>Contact</h2>
-						<p>Quickly send me a message below, or email me at <a href="mailto:peter@peterflynn.net?subject=Hello there!" class="no-decor">peter@peterflynn.net</a></p>
-					</header>
-					<div>
-						<div class="row">
-							<div class="12u">
-								<form method="post" action="http://formspree.io/peter@peterflynn.net">
-									<div>
-										<div class="row">
-											<div class="12u">
-												<input type="text" name="email" id="email" placeholder="Your Email" />
-											</div>
-										</div>
-										<div class="row">
-											<div class="12u">
-												<textarea name="message" id="message" placeholder="Message"></textarea>
-											</div>
-										</div>
-										<div class="row 200%">
-											<div class="12u">
-												<ul class="actions">
-													<input type="hidden" name="_next" value="//peteralfredoflynn.github.io/thanks.html"/>
-													<li><input type="submit" value="Send Message" /></li>
-													<li><input type="reset" value="Clear Form" class="alt" /></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</form>
-							</div>
-						</div>
-						<div class="row">
-							<div class="12u">
-								<hr />
-								<h3>Find me on ...</h3>
-								<ul class="social">
-									<!-- <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li> -->
-									<li><a href="https://www.linkedin.com/in/peter-flynn-8a32392a" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<!-- <li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
-									<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li> -->
-									<li><a href="https://github.com/peteralfredoflynn" class="icon fa-github"><span class="label">Github</span></a></li>
-									<!--
-									<li><a href="#" class="icon fa-rss"><span>RSS</span></a></li>
-									<li><a href="#" class="icon fa-instagram"><span>Instagram</span></a></li>
-									<li><a href="#" class="icon fa-foursquare"><span>Foursquare</span></a></li>
-									<li><a href="#" class="icon fa-skype"><span>Skype</span></a></li>
-									<li><a href="#" class="icon fa-soundcloud"><span>Soundcloud</span></a></li>
-									<li><a href="#" class="icon fa-youtube"><span>YouTube</span></a></li>
-									<li><a href="#" class="icon fa-blogger"><span>Blogger</span></a></li>
-									<li><a href="#" class="icon fa-flickr"><span>Flickr</span></a></li>
-									<li><a href="#" class="icon fa-vimeo"><span>Vimeo</span></a></li>
-									-->
-								</ul>
-								<hr />
-							</div>
-						</div>
-					</div>
-					<footer>
-						<ul id="copyright">
-							<li>&copy; Peter Flynn</li><li><a href="http://html5up.net">HTML5 UP</a> by <a href="http://n33.co">AJ</a></li>
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a target="_blank" href="https://angel.co/peter-alfredo-flynn" class="icon fa-angellist"><span class="label">Facebook</span></a></li>
+							<li><a target="_blank" href="https://twitter.com/fredoflynn" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a target="_blank" href="https://github.com/peteralfredoflynn" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a target="_blank" href="https://www.linkedin.com/in/peter-flynn-8a32392a" class="icon fa-linkedin"><span class="label">Dribbble</span></a></li>
+							<li><a href="#contact" class="icon fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
-					</footer>
-				</article>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 class="alt"><strong>Peter Alfredo Flynn</strong></h2>
+								<!-- Social Icons -->
+								<ul class="icons">
+									<li><a target="_blank" href="https://angel.co/peter-alfredo-flynn" class="icon fa-angellist"><span class="label">Angelist</span></a></li>
+									<li><a target="_blank" href="https://twitter.com/fredoflynn" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a target="_blank" href="https://github.com/peteralfredoflynn" class="icon fa-github"><span class="label">Github</span></a></li>
+									<li><a target="_blank" href="https://www.linkedin.com/in/peter-flynn-8a32392a" class="icon fa-linkedin"><span class="label">Dribbble</span></a></li>
+									<li><a href="#contact" class="icon fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+							</header>
+
+							<footer>
+								<a href="#portfolio" class="button scrolly">See what I've been up to.</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Recent Work</h2>
+							</header>
+
+							<p>Here's work I'm proud of. Our team continues to work on the Skill Match project. Please be patient with LIVE versions, as they are free Heroku apps and can initially take time to load.
+								Check out the CODE at my Github. Most work here was developed while a student at The Iron Yard, Las Vegas.</p>
+
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+
+									<!-- Videos -->
+									<article class="item">
+										<a target="_blank" href="https://www.youtube.com/watch?v=UXIAwk8o7Ko&index=1&list=PLJtp8Jm8EDzhCH1zfWF0X0X9dMLZaSLZk" class="fltleft">VID1</a>
+										<a target="_blank" href="https://www.youtube.com/watch?v=eWDHE0ilJ9Q&index=2&list=PLJtp8Jm8EDzhCH1zfWF0X0X9dMLZaSLZk" class="fltright">VID2</a>
+										<a target="_blank" href="https://www.youtube.com/watch?v=UXIAwk8o7Ko&index=1&list=PLJtp8Jm8EDzhCH1zfWF0X0X9dMLZaSLZk" class="image fit"><img src="http://res.cloudinary.com/skill-match/image/upload/v1454454698/skill-match-youtube-420_nqxioa.png" alt="" /></a>
+										<header>
+											<h3>Skill Match Videos</h3>
+											<p>Skill Match is a sports meet-up app based on skill. Watch a video <a href="https://www.youtube.com/watch?v=UXIAwk8o7Ko&index=1&list=PLJtp8Jm8EDzhCH1zfWF0X0X9dMLZaSLZk">walkthrough</a> of the app or see us
+												<a href="https://www.youtube.com/watch?v=eWDHE0ilJ9Q&index=2&list=PLJtp8Jm8EDzhCH1zfWF0X0X9dMLZaSLZk">pitch</a> the idea.</p>
+										</header>
+									</article>
+
+									<!-- Urly Bird -->
+									<article class="item">
+										<a target="_blank" href="https://urly-birdie.herokuapp.com/bookmarks/" class="fltleft">LIVE</a>
+										<a target="_blank" href="https://github.com/peteralfredoflynn/urly-bird-evolved" class="fltright">CODE</a>
+										<a target="_blank" href="https://urly-birdie.herokuapp.com/bookmarks/" class="image fit"><img src="http://res.cloudinary.com/skill-match/image/upload/v1454570738/urly-bird-420-225_thxbgv.png" alt="" /></a>
+										<header>
+											<h3>Urly-Bird</h3>
+											<p>I had fun with this. It's a URL shortener similar to <a href="https://goo.gl/">goo.gl</a>
+												The top used "Bookmarks" are listed on the home page.</p>
+										</header>
+									</article>
+
+								</div>
+								<div class="4u 12u$(mobile)">
+
+									<!-- Skill Match -->
+									<article class="item">
+										<a target="_blank" href="http://skill-match.surge.sh/?home=home" class="fltleft">LIVE</a>
+										<a target="_blank" href="https://github.com/Skill-Match" class="fltright">CODE</a>
+										<a target="_blank" href="http://skill-match.surge.sh/?home=home" class="image fit"><img src="http://res.cloudinary.com/skill-match/image/upload/v1454567037/skill-match-440_j1toew.png" alt="" /></a>
+										<header>
+											<h3>Skill Match</h3>
+											<p>Find games and parks in Las Vegas, NV.
+												 For more details, see <a target="_blank" href="https://angel.co/skill-match">AngelList</a>
+											</p>
+										</header>
+									</article>
+
+									<!-- Iron Foos -->
+									<article class="item">
+										<a target="_blank" href="https://ironfoos.herokuapp.com/" class="fltleft">LIVE</a>
+										<a target="_blank" href="https://github.com/peteralfredoflynn/iron_foos" class="fltright">CODE</a>
+										<a target="_blank" href="https://ironfoos.herokuapp.com/" class="image fit"><img src="http://res.cloudinary.com/skill-match/image/upload/v1454455716/iron_foos_home-420_oezhps.png" alt="" /></a>
+										<header>
+											<h3>Iron Foos</h3>
+											<p>Iron Foos is a 8-man, single elimination tournament app. Jaemarie
+												and I teamed up to create it during a 2-day hackathon.
+											</p>
+										</header>
+									</article>
+
+								</div>
+								<div class="4u$ 12u$(mobile)">
+
+									<!-- API -->
+									<article class="item">
+										<a target="_blank" href="https://skill-match.herokuapp.com/api/matches/" class="fltleft">LIVE</a>
+										<a target="_blank" href="https://github.com/Skill-Match/skill-match-api" class="fltright">CODE</a>
+										<a target="_blank" href="https://skill-match.herokuapp.com/api/matches/" class="image fit"><img src="http://res.cloudinary.com/skill-match/image/upload/v1454454687/api-420_smtrfb.png" alt="" /></a>
+										<header>
+											<h3>Skill Match API</h3>
+											<p>Some of my best work to date. The API feeds JSON data and does
+												a lot of work in the background. For those familiar with API's, you can see
+												some of it's <a target="_blank" href="http://skill-match.herokuapp.com/docs/">operations</a> here. Again sorry for the app delay!</p>
+										</header>
+									</article>
+
+									<!-- Blackjack -->
+									<article class="item">
+										<a target="_blank" href="https://github.com/peteralfredoflynn/blackjack" class="fltright">CODE</a>
+										<a target="_blank" href="https://github.com/peteralfredoflynn/blackjack" class="image fit"><img src="http://res.cloudinary.com/skill-match/image/upload/v1454454693/blackjack-420_c5wnjs.png" alt="" /></a>
+										<header>
+											<h3>Blackjack</h3>
+											<p>This was our first tough weekend assignment at <a target="_blank"  href="https://www.theironyard.com/locations/las-vegas.html">The Iron Yard</a>. Believe me, the code is a mess, but the program is highly functional. I remember spending long hours toiling away to get Splits, Double Downs, and Surrender working.
+										</header>
+									</article>
+
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>About Me</h2>
+								<!-- <span class="image avatar48"><img src="http://res.cloudinary.com/skill-match/image/upload/v1453522603/Me-Iron-Yard-Circle-350_hybldb.png" alt="" /></span>
+								<span class="image avatar48"><img src="http://res.cloudinary.com/skill-match/image/upload/v1453522603/Me-Iron-Yard-Circle-350_hybldb.png" alt="" /></span>
+								<span class="image avatar48"><img src="http://res.cloudinary.com/skill-match/image/upload/v1453522603/Me-Iron-Yard-Circle-350_hybldb.png" alt="" /></span> -->
+
+							</header>
+
+							<!-- <a href="#" class="image featured"><img src="http://res.cloudinary.com/skill-match/image/upload/v1454402993/me-meditate-1400-random-adjs_qwitl1.jpg" alt="" /></a> -->
+							<img class="image featured" src="http://res.cloudinary.com/skill-match/image/upload/v1454461672/test-1422_xupxlt.jpg" alt="" />
+
+							<p>
+								I hungry to learn, grow, build, and be at peace. I'm a recent graduate of
+								The Iron Yard in Las Vegas, NV. I have a B.S. in Informatics with a cognate in
+								Human Computer Interaction from the University of Nevada, Las Vegas. For some of my skills,
+								see my <a target="_blank" href="https://drive.google.com/file/d/0BzFtlJWmCuiTUndXYlcySWx6cHM/view?usp=sharing" target="_blank">resume</a>.
+								Find me on <a target="_blank" href="https://www.linkedin.com/in/peter-flynn-8a32392a">LinkedIn</a> and
+									 <a target="_blank" href="https://angel.co/peter-alfredo-flynn">Angellist</a>, or see my work on
+									 <a target="_blank" href="https://github.com/peteralfredoflynn">GitHub</a>
+						</p>
+
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+							<p>Quickly send me a message below or email me at <a href="mailto:peter@peterflynn.net?subject=Hello There!">peter@peterflynn.net</a>
+							</p>
+
+							<form method="post" action="http://formspree.io/peter@peterflynn.net">
+								<div class="row">
+									<div class="12u$"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="12u$">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+									<div class="12u$">
+										<input type="submit" value="Send Message" />
+									</div>
+								</div>
+							</form>
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Peter Flynn</li><li><a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
 			</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/skel-viewport.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
